@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -23,10 +23,10 @@ import { createContext, useContext, useReducer } from "react";
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
 
-// The Soft UI Dashboard React main context
+// The Viet Thanh Plastic React main context
 const SoftUI = createContext();
 
-// Soft UI Dashboard React reducer
+// Viet Thanh Plastic React reducer
 function reducer(state, action) {
   switch (action.type) {
     case "MINI_SIDENAV": {
@@ -59,7 +59,7 @@ function reducer(state, action) {
   }
 }
 
-// Soft UI Dashboard React context provider
+// Viet Thanh Plastic React context provider
 function SoftUIControllerProvider({ children }) {
   const initialState = {
     miniSidenav: false,
@@ -77,7 +77,7 @@ function SoftUIControllerProvider({ children }) {
   return <SoftUI.Provider value={[controller, dispatch]}>{children}</SoftUI.Provider>;
 }
 
-// Soft UI Dashboard React custom hook for using context
+// Viet Thanh Plastic React custom hook for using context
 function useSoftUIController() {
   return useContext(SoftUI);
 }

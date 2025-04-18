@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -16,7 +16,7 @@ Coded by www.creative-tim.com
 import { useState, useEffect } from "react";
 
 // react-github-btn
-import GitHubButton from "react-github-btn";
+// import GitHubButton from "react-github-btn";
 
 // clsx is a utility for constructing className strings conditionally
 import clsx from "clsx";
@@ -33,7 +33,7 @@ import Icon from "@mui/material/Icon";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 
-// Soft UI Dashboard React components
+// Viet Thanh Plastic React components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 import SuiButton from "components/SuiButton";
@@ -41,7 +41,7 @@ import SuiButton from "components/SuiButton";
 // Custom styles for the Configurator
 import styles from "examples/Configurator/styles";
 
-// Soft UI Dashboard React context
+// Viet Thanh Plastic React context
 import { useSoftUIController } from "context";
 
 function Configurator() {
@@ -103,7 +103,7 @@ function Configurator() {
         px={3}
       >
         <SuiBox>
-          <SuiTypography variant="h5">Soft UI Configurator</SuiTypography>
+          <SuiTypography variant="h5">Viet Thanh Plastic Configurator</SuiTypography>
           <SuiTypography variant="body2" textColor="text">
             See our dashboard options.
           </SuiTypography>
@@ -171,7 +171,7 @@ function Configurator() {
 
         <Divider />
 
-        <SuiBox mt={3} mb={2}>
+        {/* <SuiBox mt={3} mb={2}>
           <SuiBox mb={2}>
             <SuiButton
               component={Link}
@@ -185,18 +185,18 @@ function Configurator() {
               free download
             </SuiButton>
           </SuiBox>
-        </SuiBox>
-        <SuiBox display="flex" justifyContent="center">
+        </SuiBox> */}
+        {/* <SuiBox display="flex" justifyContent="center">
           <GitHubButton
             href="https://github.com/app-generator/django-reactsoft-dashboard"
             data-icon="octicon-star"
             data-size="large"
             data-show-count="true"
-            aria-label="Star Soft UI Dashboard React on GitHub"
+            aria-label="Star Viet Thanh Plastic React on GitHub"
           >
             Star
           </GitHubButton>
-        </SuiBox>
+        </SuiBox> */}
         <SuiBox mt={3} textAlign="center">
           <SuiBox mb={0.5}>
             <SuiTypography variant="h6">Thank you for sharing!</SuiTypography>

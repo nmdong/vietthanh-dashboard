@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -31,14 +31,14 @@ import Divider from "@mui/material/Divider";
 import Icon from "@mui/material/Icon";
 import Link from "@mui/material/Link";
 
-// Soft UI Dashboard React components
+// Viet Thanh Plastic React components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 import SuiButton from "components/SuiButton";
 
-// Soft UI Dashboard React example components
+// Viet Thanh Plastic React example components
 import SidenavCollapse from "examples/Sidenav/SidenavCollapse";
-import SidenavCard from "examples/Sidenav/SidenavCard";
+// import SidenavCard from "examples/Sidenav/SidenavCard";
 
 // Custom styles for the Sidenav
 import styles from "examples/Sidenav/styles/sidenav";
@@ -46,7 +46,7 @@ import styles from "examples/Sidenav/styles/sidenav";
 // Images
 import SoftUILogo from "assets/images/logo-ct.png";
 
-// Soft UI Dashboard React context
+// Viet Thanh Plastic React context
 import { useSoftUIController } from "context";
 
 function Sidenav({ routes, ...rest }) {
@@ -163,7 +163,7 @@ function Sidenav({ routes, ...rest }) {
           />
           <SuiBox customClass={classes.sidenav_logoLabel}>
             <SuiTypography component="h6" variant="button" fontWeight="medium">
-              Soft UI Dashboard
+              Viet Thanh Plastic
             </SuiTypography>
           </SuiBox>
         </NavLink>
@@ -171,18 +171,18 @@ function Sidenav({ routes, ...rest }) {
       <Divider />
       <List>{renderRoutes}</List>
       <SuiBox customClass={classes.sidenav_footer}>
-        <SidenavCard />
+        {/* <SidenavCard /> */}
         <SuiBox mt={2}>
           <SuiButton
             component="a"
-            href="https://appseed.us/full-stack/react-soft-ui-dashboard"
+            href="http://localhost:3000/api/v1/user/tao-moi-thoa-thuan"
             target="_blank"
             rel="noreferrer"
             variant="gradient"
             buttonColor="info"
             fullWidth
           >
-            Pro Version
+            Tạo Mới Thỏa Thuận
           </SuiButton>
         </SuiBox>
       </SuiBox>

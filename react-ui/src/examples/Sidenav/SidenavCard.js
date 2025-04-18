@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -19,7 +19,7 @@ import CardContent from "@mui/material/CardContent";
 import Icon from "@mui/material/Icon";
 import Link from "@mui/material/Link";
 
-// Soft UI Dashboard PRO Material-UI components
+// Viet Thanh Plastic PRO Material-UI components
 import SuiButton from "components/SuiButton";
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
@@ -27,7 +27,7 @@ import SuiTypography from "components/SuiTypography";
 // Custom styles for the SidenavCard
 import styles from "examples/Sidenav/styles/sidenavCard";
 
-// Soft UI Dashboard PRO Material-UI context
+// Viet Thanh Plastic PRO Material-UI context
 import { useSoftUIController } from "context";
 
 function SidenavCard() {
@@ -61,7 +61,7 @@ function SidenavCard() {
             color="default"
             fullWidth
           >
-            React Soft Dashboard
+            Viet Thanh Dashboard
           </SuiButton>
         </SuiBox>
       </CardContent>

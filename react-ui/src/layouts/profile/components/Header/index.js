@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-pro-material-ui
@@ -22,20 +22,20 @@ import AppBar from "@mui/material/AppBar";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 
-// Soft UI Dashboard PRO React components
+// Viet Thanh Plastic PRO React components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 import SuiAvatar from "components/SuiAvatar";
 
-// Soft UI Dashboard PRO React example components
+// Viet Thanh Plastic PRO React example components
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 
-// Soft UI Dashboard PRO React icons
+// Viet Thanh Plastic PRO React icons
 import Cube from "examples/Icons/Cube";
 import Document from "examples/Icons/Document";
 import Settings from "examples/Icons/Settings";
 
-// Soft UI Dashboard PRO React base styles
+// Viet Thanh Plastic PRO React base styles
 import breakpoints from "assets/theme/base/breakpoints";
 
 // Custom styles for Header

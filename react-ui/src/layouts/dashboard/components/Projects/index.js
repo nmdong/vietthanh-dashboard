@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -21,11 +21,11 @@ import Icon from "@mui/material/Icon";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 
-// Soft UI Dashboard React components
+// Viet Thanh Plastic React components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
-// Soft UI Dashboard Materail-UI example components
+// Viet Thanh Plastic Materail-UI example components
 import Table from "examples/Table";
 
 // Custom styles for the Projects
@@ -68,12 +68,12 @@ function Projects() {
       <SuiBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
         <SuiBox>
           <SuiTypography variant="h6" gutterBottom>
-            Projects
+            Số lượng Đại Lý / Nhà Phân Phối đang tham gia
           </SuiTypography>
           <SuiBox display="flex" alignItems="center" lineHeight={0}>
             <Icon className="font-bold text-info">done</Icon>
             <SuiTypography variant="button" fontWeight="regular" textColor="text">
-              &nbsp;<strong>30 done</strong> this month
+              &nbsp;<strong>30 hợp đồng mới</strong> trong tháng này
             </SuiTypography>
           </SuiBox>
         </SuiBox>

@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -14,17 +14,30 @@ Coded by www.creative-tim.com
 */
 
 export default {
-  labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+  labels: [
+    "Tháng 01",
+    "Tháng 02",
+    "Tháng 03",
+    "Tháng 04",
+    "Tháng 05",
+    "Tháng 06",
+    "Tháng 07",
+    "Tháng 08",
+    "Tháng 09",
+    "Tháng 10",
+    "Tháng 11",
+    "Tháng 12",
+  ],
   datasets: [
     {
-      label: "Mobile apps",
+      label: "Số lượng Nhà Phân Phối ",
       color: "info",
-      data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+      data: [20, 30, 40, 50, 40, 300, 220, 500, 250, 400, 230, 500],
     },
     {
-      label: "Websites",
+      label: "Số lượng Đại Lý",
       color: "dark",
-      data: [30, 90, 40, 140, 290, 290, 340, 230, 400],
+      data: [10, 15, 20, 30, 90, 40, 140, 290, 290, 340, 230, 400],
     },
   ],
 };

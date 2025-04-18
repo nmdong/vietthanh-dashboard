@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -17,11 +17,11 @@ Coded by www.creative-tim.com
 import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
 
-// Soft UI Dashboard React components
+// Viet Thanh Plastic React components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
-// Soft UI Dashboard React example components
+// Viet Thanh Plastic React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
@@ -29,7 +29,7 @@ import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCar
 import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
 import GradientLineChart from "examples/Charts/LineCharts/GradientLineChart";
 
-// Soft UI Dashboard React base styles
+// Viet Thanh Plastic React base styles
 import typography from "assets/theme/base/typography";
 
 // Dashboard layout components
@@ -54,25 +54,25 @@ function Dashboard() {
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "today's money" }}
-                count="$53,000"
-                percentage={{ color: "success", text: "+55%" }}
-                icon={{ color: "info", component: "paid" }}
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} xl={3}>
-              <MiniStatisticsCard
-                title={{ text: "today's users" }}
-                count="2,300"
-                percentage={{ color: "success", text: "+3%" }}
+                title={{ text: "Số thỏa thuận đang hoạt động" }}
+                count="88"
+                percentage={{ color: "success", text: "" }}
                 icon={{ color: "info", component: "public" }}
               />
             </Grid>
             <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "new clients" }}
-                count="+3,462"
-                percentage={{ color: "error", text: "-2%" }}
+                title={{ text: "Số lượng Đại Lý" }}
+                count="68"
+                percentage={{ color: "success", text: "" }}
+                icon={{ color: "info", component: "emoji_events" }}
+              />
+            </Grid>
+            <Grid item xs={12} sm={6} xl={3}>
+              <MiniStatisticsCard
+                title={{ text: "Số lượng Nhà Phân Phối " }}
+                count="68"
+                percentage={{ color: "error", text: "" }}
                 icon={{ color: "info", component: "emoji_events" }}
               />
             </Grid>
@@ -115,16 +115,16 @@ function Dashboard() {
             </Grid>
             <Grid item xs={12} lg={7}>
               <GradientLineChart
-                title="Sales Overview"
+                title="Biểu đồ doanh số theo tháng "
                 description={
                   <SuiBox display="flex" alignItems="center">
                     <SuiBox fontSize={size.lg} color="success" mb={0.3} mr={0.5} lineHeight={0}>
                       <Icon className="font-bold">arrow_upward</Icon>
                     </SuiBox>
                     <SuiTypography variant="button" textColor="text" fontWeight="medium">
-                      4% more{" "}
+                      6% more{" "}
                       <SuiTypography variant="button" textColor="text" fontWeight="regular">
-                        in 2021
+                        in 2025
                       </SuiTypography>
                     </SuiTypography>
                   </SuiBox>

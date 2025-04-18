@@ -1,7 +1,7 @@
 // @mui material components
 import Tooltip from "@mui/material/Tooltip";
 
-// Soft UI Dashboard React components
+// Viet Thanh Plastic React components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 import SuiAvatar from "components/SuiAvatar";
@@ -34,15 +34,15 @@ export default function data() {
 
   return {
     columns: [
-      { name: "companies", align: "left" },
+      { name: "Danh Mục Sản Phẩm", align: "left" },
       { name: "members", align: "left" },
-      { name: "budget", align: "center" },
-      { name: "completion", align: "center" },
+      { name: "Doanh Thu", align: "center" },
+      { name: "Tiến Độ Hoàng Thành", align: "center" },
     ],
 
     rows: [
       {
-        companies: [logoXD, "Soft UI XD Version"],
+        "Danh Mục Sản Phẩm": [logoXD, "Soft UI XD Version"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -53,19 +53,19 @@ export default function data() {
             ])}
           </SuiBox>
         ),
-        budget: (
+        "Doanh Thu": (
           <SuiTypography variant="caption" textColor="text" fontWeight="medium">
             $14,000
           </SuiTypography>
         ),
-        completion: (
+        "Tiến Độ Hoàng Thành": (
           <SuiBox width="8rem" textAlign="left">
             <SuiProgress value={60} color="info" gradient />
           </SuiBox>
         ),
       },
       {
-        companies: [logoAtlassian, "Add Progress Track"],
+        "Danh Mục Sản Phẩm": [logoAtlassian, "Add Progress Track"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -74,19 +74,19 @@ export default function data() {
             ])}
           </SuiBox>
         ),
-        budget: (
+        "Doanh Thu": (
           <SuiTypography variant="caption" textColor="text" fontWeight="medium">
             $3,000
           </SuiTypography>
         ),
-        completion: (
+        "Tiến Độ Hoàng Thành": (
           <SuiBox width="8rem" textAlign="left">
             <SuiProgress value={10} color="info" gradient />
           </SuiBox>
         ),
       },
       {
-        companies: [logoSlack, "Fix Platform Errors"],
+        "Danh Mục Sản Phẩm": [logoSlack, "Fix Platform Errors"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -95,19 +95,19 @@ export default function data() {
             ])}
           </SuiBox>
         ),
-        budget: (
+        "Doanh Thu": (
           <SuiTypography variant="caption" textColor="text" fontWeight="medium">
             Not set
           </SuiTypography>
         ),
-        completion: (
+        "Tiến Độ Hoàng Thành": (
           <SuiBox width="8rem" textAlign="left">
             <SuiProgress value={100} color="success" gradient />
           </SuiBox>
         ),
       },
       {
-        companies: [logoSpotify, "Launch our Mobile App"],
+        "Danh Mục Sản Phẩm": [logoSpotify, "Launch our Mobile App"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -118,37 +118,37 @@ export default function data() {
             ])}
           </SuiBox>
         ),
-        budget: (
+        "Doanh Thu": (
           <SuiTypography variant="caption" textColor="text" fontWeight="medium">
             $20,500
           </SuiTypography>
         ),
-        completion: (
+        "Tiến Độ Hoàng Thành": (
           <SuiBox width="8rem" textAlign="left">
             <SuiProgress value={100} color="success" gradient />
           </SuiBox>
         ),
       },
       {
-        companies: [logoJira, "Add the New Pricing Page"],
+        "Danh Mục Sản Phẩm": [logoJira, "Add the New Pricing Page"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([[team4, "Jessica Doe"]])}
           </SuiBox>
         ),
-        budget: (
+        "Doanh Thu": (
           <SuiTypography variant="caption" textColor="text" fontWeight="medium">
             $500
           </SuiTypography>
         ),
-        completion: (
+        "Tiến Độ Hoàng Thành": (
           <SuiBox width="8rem" textAlign="left">
             <SuiProgress value={25} color="info" gradient />
           </SuiBox>
         ),
       },
       {
-        companies: [logoInvesion, "Redesign New Online Shop"],
+        "Danh Mục Sản Phẩm": [logoInvesion, "Redesign New Online Shop"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -157,12 +157,12 @@ export default function data() {
             ])}
           </SuiBox>
         ),
-        budget: (
+        "Doanh Thu": (
           <SuiTypography variant="caption" textColor="text" fontWeight="medium">
             $2,000
           </SuiTypography>
         ),
-        completion: (
+        "Tiến Độ Hoàng Thành": (
           <SuiBox width="8rem" textAlign="left">
             <SuiProgress value={40} color="info" gradient />
           </SuiBox>

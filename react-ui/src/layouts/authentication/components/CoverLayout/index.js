@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -19,11 +19,11 @@ import PropTypes from "prop-types";
 // @mui material components
 import Grid from "@mui/material/Grid";
 
-// Soft UI Dashboard React components
+// Viet Thanh Plastic React components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
-// Soft UI Dashboard React example components
+// Viet Thanh Plastic React example components
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import PageLayout from "examples/LayoutContainers/PageLayout";
 
@@ -33,7 +33,7 @@ import Footer from "layouts/authentication/components/Footer";
 // Custom styles for the Baise
 import styles from "layouts/authentication/components/CoverLayout/styles";
 
-// Soft UI Dashboard React page layout routes
+// Viet Thanh Plastic React page layout routes
 import routes from "routes";
 
 function CoverLayout({ color, header, title, description, image, top, children }) {

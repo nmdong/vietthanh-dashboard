@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-pro-material-ui
@@ -18,7 +18,7 @@ import { forwardRef, createContext, useContext } from "react";
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
 
-// Soft UI Dashboard PRO React components
+// Viet Thanh Plastic PRO React components
 import SuiBox from "components/SuiBox";
 import SuiButton from "components/SuiButton";
 

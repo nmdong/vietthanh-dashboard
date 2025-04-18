@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -24,14 +24,14 @@ import { Bar } from "react-chartjs-2";
 // @mui material components
 import Card from "@mui/material/Card";
 
-// Soft UI Dashboard React components
+// Viet Thanh Plastic React components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
 // VerticalBarChart configurations
 import configs from "examples/Charts/BarCharts/VerticalBarChart/configs";
 
-// Soft UI Dashboard React base styles
+// Viet Thanh Plastic React base styles
 import colors from "assets/theme/base/colors";
 
 function VerticalBarChart({ title, description, height, chart }) {

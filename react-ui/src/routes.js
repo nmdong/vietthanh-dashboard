@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -14,7 +14,7 @@ Coded by www.creative-tim.com
 */
 
 /** 
-  All of the routes for the Soft UI Dashboard React are added here,
+  All of the routes for the Viet Thanh Plastic React are added here,
   You can add a new route, customize the routes and delete the routes here.
 
   Once you add a new route on this file it will be visible automatically on
@@ -35,21 +35,21 @@ Coded by www.creative-tim.com
   10. The `component` key is used to store the component of its route.
 */
 
-// Soft UI Dashboard React layouts
+// Viet Thanh Plastic React layouts
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
 import Billing from "layouts/billing";
 import VirtualReality from "layouts/virtual-reality";
-import RTL from "layouts/rtl";
+// import RTL from "layouts/rtl";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import SignOut from "layouts/authentication/sign-out";
 
-// Soft UI Dashboard React icons
+// Viet Thanh Plastic React icons
 import Shop from "examples/Icons/Shop";
 import Office from "examples/Icons/Office";
-import Settings from "examples/Icons/Settings";
+// import Settings from "examples/Icons/Settings";
 import Document from "examples/Icons/Document";
 import SpaceShip from "examples/Icons/SpaceShip";
 import CustomerSupport from "examples/Icons/CustomerSupport";
@@ -69,7 +69,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Tables",
+    name: "Quản lý Thỏa Thuận",
     key: "tables",
     route: "/tables",
     icon: <Office size="12px" />,
@@ -79,7 +79,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Billing",
+    name: "Người Dùng",
     key: "billing",
     route: "/billing",
     icon: <CreditCard size="12px" />,
@@ -89,7 +89,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Virtual Reality",
+    name: "Đối Tác",
     key: "virtual-reality",
     route: "/virtual-reality",
     icon: <Cube size="12px" />,
@@ -97,20 +97,20 @@ const routes = [
     noCollapse: true,
     protected: true,
   },
-  {
-    type: "collapse",
-    name: "RTL",
-    key: "rtl",
-    route: "/rtl",
-    icon: <Settings size="12px" />,
-    component: RTL,
-    noCollapse: true,
-    protected: true,
-  },
+  // {
+  //   type: "collapse",
+  //   name: "RTL",
+  //   key: "rtl",
+  //   route: "/rtl",
+  //   icon: <Settings size="12px" />,
+  //   component: RTL,
+  //   noCollapse: true,
+  //   protected: true,
+  // },
   { type: "title", title: "Account Pages", key: "account-pages" },
   {
     type: "collapse",
-    name: "Profile",
+    name: "My Profile",
     key: "profile",
     route: "/profile",
     icon: <CustomerSupport size="12px" />,
@@ -138,7 +138,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Logout",
+    name: "Đăng Xuất",
     key: "sign-out",
     route: "/authentication/sign-out",
     icon: <SpaceShip size="12px" />,

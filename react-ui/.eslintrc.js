@@ -11,24 +11,21 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    "prettier": {
-      "printWidth": 90,
-      "bracketSpacing": false,
-      "trailingComma": "es5"
-    }  
+    prettier: {
+      printWidth: 90,
+      bracketSpacing: false,
+      trailingComma: "es5",
+    },
   },
   plugins: ["react"],
-  extends: [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:prettier/recommended",
-  ],
+  extends: ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"],
   rules: {
     "react/react-in-jsx-scope": "off",
-    "prettier/prettier": 
-    [ "error",
+    "prettier/prettier": [
+      "error",
       {
-        "endOfLine": "auto"}
-    ]
-  }
+        endOfLine: "auto",
+      },
+    ],
+  },
 };

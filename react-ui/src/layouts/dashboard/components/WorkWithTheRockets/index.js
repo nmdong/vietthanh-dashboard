@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -17,7 +17,7 @@ Coded by www.creative-tim.com
 import Card from "@mui/material/Card";
 import Icon from "@mui/material/Icon";
 
-// Soft UI Dashboard React components
+// Viet Thanh Plastic React components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
@@ -33,13 +33,14 @@ function WorkWithTheRockets() {
         <SuiBox customClass={classes.workWithTheRockets_content}>
           <SuiBox mb={3} pt={1}>
             <SuiTypography variant="h5" textColor="white" fontWeight="bold">
-              Work with the rockets
+              Tại sao lại là Viet Thanh Plastic?
             </SuiTypography>
           </SuiBox>
           <SuiBox mb={2}>
             <SuiTypography variant="body2" textColor="white">
-              Wealth creation is an evolutionarily recent positive-sum game. It is all about who
-              take the opportunity first.
+              Làm việc với Viet Thanh Plastic là một trải nghiệm tuyệt vời. Chúng tôi cung cấp cho
+              bạn những sản phẩm chất lượng cao và dịch vụ tốt nhất. Chúng tôi cam kết hỗ trợ bạn
+              trong mọi bước của quá trình hợp tác.
             </SuiTypography>
           </SuiBox>
           <SuiTypography
@@ -50,7 +51,7 @@ function WorkWithTheRockets() {
             fontWeight="medium"
             customClass={classes.workWithTheRockets_button}
           >
-            Read More
+            Tìm hiểu thêm
             <Icon className="font-bold">arrow_forward</Icon>
           </SuiTypography>
         </SuiBox>

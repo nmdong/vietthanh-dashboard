@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-pro-material-ui
@@ -14,9 +14,9 @@ Coded by www.creative-tim.com
 */
 
 /**
- * The base colors for the Soft UI Dashboard PRO Material.
+ * The base colors for the Viet Thanh Plastic PRO Material.
  * You can add new color using this file.
- * You can customized the colors for the entire Soft UI Dashboard PRO Material using thie file.
+ * You can customized the colors for the entire Viet Thanh Plastic PRO Material using thie file.
  */
 
 export default {

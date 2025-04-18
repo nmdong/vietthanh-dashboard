@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Soft UI Dashboard React - v2.0.0
+* Viet Thanh Plastic React - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-pro-material-ui
@@ -14,15 +14,15 @@ Coded by www.creative-tim.com
 */
 
 /**
- * The base border styles for the Soft UI Dashboard PRO Material.
+ * The base border styles for the Viet Thanh Plastic PRO Material.
  * You can add new border width, border color or border radius using this file.
- * You can customized the borders value for the entire Soft UI Dashboard PRO Material using thie file.
+ * You can customized the borders value for the entire Viet Thanh Plastic PRO Material using thie file.
  */
 
-// Soft UI Dashboard PRO React Base Styles
+// Viet Thanh Plastic PRO React Base Styles
 import colors from "assets/theme/base/colors";
 
-// Soft UI Dashboard PRO React Helper Functions
+// Viet Thanh Plastic PRO React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { grey } = colors;
