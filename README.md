@@ -1,6 +1,6 @@
 # [React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-django/react/) - `Django API`
 
-Start your Development with an Innovative Admin Template for **Material-UI** and **React**. [Viet Thanh Plastic React](https://appseed.us/product/soft-ui-dashboard/api-server-django/react/) is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. The product comes with a simple JWT authentication flow: login/register/logout.
+Start your Development with an Innovative Admin Template for **Material-UI** and **React**. [Viet Thanh Plastic](https://appseed.us/product/soft-ui-dashboard/api-server-django/react/) is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. The product comes with a simple JWT authentication flow: login/register/logout.
 
 - 👉 [Django React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-django/react/) - product page
 - 👉 [Django React Soft Dashboard](https://django-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
@@ -147,6 +147,8 @@ $
 $ # Start for development (LIVE Reload)
 $ yarn start
 ```
+
+### npx prettier --write .
 
 <br />
 

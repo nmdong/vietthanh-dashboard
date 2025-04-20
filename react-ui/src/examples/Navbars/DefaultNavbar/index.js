@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -25,16 +25,16 @@ import PropTypes from "prop-types";
 import Container from "@mui/material/Container";
 import Icon from "@mui/material/Icon";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 import SuiButton from "components/SuiButton";
 
-// Viet Thanh Plastic React example components
+// Viet Thanh Plastic example components
 import DefaultNavbarLink from "examples/Navbars/DefaultNavbar/DefaultNavbarLink";
 import DefaultNavbarMobile from "examples/Navbars/DefaultNavbar/DefaultNavbarMobile";
 
-// Viet Thanh Plastic React base styles
+// Viet Thanh Plastic base styles
 import breakpoints from "assets/theme/base/breakpoints";
 
 // Custom styles for DashboardNavbar

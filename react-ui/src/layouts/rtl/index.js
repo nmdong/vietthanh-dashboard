@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -19,11 +19,11 @@ import { useEffect } from "react";
 import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
-// Viet Thanh Plastic React example components
+// Viet Thanh Plastic example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
@@ -31,7 +31,7 @@ import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCar
 import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
 import GradientLineChart from "examples/Charts/LineCharts/GradientLineChart";
 
-// Viet Thanh Plastic React base styles
+// Viet Thanh Plastic base styles
 import typography from "assets/theme/base/typography";
 
 // RTL layout components
@@ -40,7 +40,7 @@ import WorkWithTheRockets from "layouts/rtl/components/WorkWithTheRockets";
 import Projects from "layouts/rtl/components/Projects";
 import OrderOverview from "layouts/rtl/components/OrderOverview";
 
-// Viet Thanh Plastic React contexts
+// Viet Thanh Plastic contexts
 import { useSoftUIController } from "context";
 
 // Data

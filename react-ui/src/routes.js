@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -14,7 +14,7 @@ Coded by www.creative-tim.com
 */
 
 /** 
-  All of the routes for the Viet Thanh Plastic React are added here,
+  All of the routes for the Viet Thanh Plastic are added here,
   You can add a new route, customize the routes and delete the routes here.
 
   Once you add a new route on this file it will be visible automatically on
@@ -35,7 +35,7 @@ Coded by www.creative-tim.com
   10. The `component` key is used to store the component of its route.
 */
 
-// Viet Thanh Plastic React layouts
+// Viet Thanh Plastic layouts
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
 import Billing from "layouts/billing";
@@ -46,7 +46,7 @@ import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import SignOut from "layouts/authentication/sign-out";
 
-// Viet Thanh Plastic React icons
+// Viet Thanh Plastic icons
 import Shop from "examples/Icons/Shop";
 import Office from "examples/Icons/Office";
 // import Settings from "examples/Icons/Settings";

@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -17,7 +17,7 @@ Coded by www.creative-tim.com
 import Card from "@mui/material/Card";
 import Icon from "@mui/material/Icon";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
@@ -45,7 +45,7 @@ function WorkWithTheRockets() {
           </SuiBox>
           <SuiTypography
             component="a"
-            href="#"
+            href="https://www.vithacoplastic.com/#"
             variant="button"
             textColor="white"
             fontWeight="medium"

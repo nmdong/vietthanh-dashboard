@@ -1,9 +1,9 @@
 {
   "short_name": "Viet Thanh Plastic",
-  "name": "Viet Thanh Plastic React",
+  "name": "Viet Thanh Plastic",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "vietthanh-icon-removebg.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     }

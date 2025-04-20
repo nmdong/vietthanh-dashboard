@@ -30,4 +30,4 @@ Copyright (c) 2019 - present [AppSeed](http://appseed.us/)
 
 ---
 
-For more information regarding licensing, contact the AppSeed Service < *support@appseed.us* >
+For more information regarding licensing, contact the AppSeed Service < *nmdong.dtvt@gmail.com* >

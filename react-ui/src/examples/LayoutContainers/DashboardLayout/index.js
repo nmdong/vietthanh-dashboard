@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -21,13 +21,13 @@ import { useLocation } from "react-router-dom";
 // prop-types is a library for typechecking of props.
 import PropTypes from "prop-types";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 
 // Custom styles for the LayoutContainer
 import styles from "examples/LayoutContainers/DashboardLayout/styles";
 
-// Viet Thanh Plastic React context
+// Viet Thanh Plastic context
 import { useSoftUIController } from "context";
 
 function LayoutContainer({ children }) {

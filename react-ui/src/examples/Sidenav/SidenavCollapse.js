@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -23,13 +23,13 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import Icon from "@mui/material/Icon";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 
 // Custom styles for the SidenavCollapse
 import styles from "examples/Sidenav/styles/sidenavCollapse";
 
-// Viet Thanh Plastic React context
+// Viet Thanh Plastic context
 import { useSoftUIController } from "context";
 
 function SidenavCollapse({ icon, name, children, active, noCollapse, open, ...rest }) {

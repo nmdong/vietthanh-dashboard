@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -18,7 +18,7 @@ import Card from "@mui/material/Card";
 import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
@@ -26,8 +26,8 @@ import SuiTypography from "components/SuiTypography";
 import styles from "layouts/dashboard/components/BuildByDevelopers/styles";
 
 // Images
-import wavesWhite from "assets/images/shapes/waves-white.svg";
-import rocketWhite from "assets/images/illustrations/rocket-white.png";
+import wavesWhite from "assets/images/shapes/banghe-white.jpeg";
+import rocketWhite from "assets/images/illustrations/banghe-white.jpeg";
 
 function BuildByDevelopers() {
   const classes = styles();
@@ -48,13 +48,12 @@ function BuildByDevelopers() {
               </SuiTypography>
               <SuiBox mb={6}>
                 <SuiTypography variant="body2" textColor="text">
-                  From colors, cards, typography to complex elements, you will find the full
-                  documentation.
+                Được thành lập vào tháng 03/2011. Nhựa Việt Thành là một trong những đơn vị hàng đầu trong lĩnh vực sản xuất và cung cấp các sản phẩm nhựa tại Việt Nam. Với đa dạng các sản phẩm như thùng đựng, khay chứa, bàn ghế, đồ dùng nhà bếp,...
                 </SuiTypography>
               </SuiBox>
               <SuiTypography
                 component="a"
-                href="#"
+                href="https://www.vithacoplastic.com/"
                 variant="button"
                 textColor="text"
                 fontWeight="medium"

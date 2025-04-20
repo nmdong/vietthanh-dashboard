@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -19,11 +19,11 @@ import PropTypes from "prop-types";
 // @mui material components
 import Grid from "@mui/material/Grid";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
-// Viet Thanh Plastic React example components
+// Viet Thanh Plastic example components
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import PageLayout from "examples/LayoutContainers/PageLayout";
 
@@ -33,7 +33,7 @@ import Footer from "layouts/authentication/components/Footer";
 // Custom styles for the BaiseLayout
 import styles from "layouts/authentication/components/BasicLayout/styles";
 
-// Viet Thanh Plastic React page layout routes
+// Viet Thanh Plastic page layout routes
 import routes from "routes";
 
 function BasicLayout({ title, description, image, children }) {

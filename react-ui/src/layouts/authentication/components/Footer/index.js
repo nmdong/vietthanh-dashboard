@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -23,7 +23,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
@@ -89,7 +89,7 @@ function Footer() {
         </Grid>
         <Grid item xs={12} lg={8} className="text-center">
           <SuiTypography variant="body2" textColor="secondary">
-            &copy; Creative Tim - coded by AppSeed.
+            &copy; Creative Tim - coded by nmdong.
           </SuiTypography>
         </Grid>
       </Grid>

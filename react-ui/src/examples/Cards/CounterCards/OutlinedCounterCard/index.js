@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -19,11 +19,11 @@ import CountUp from "react-countup";
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
-// Viet Thanh Plastic React base styles
+// Viet Thanh Plastic base styles
 import colors from "assets/theme/base/colors";
 import borders from "assets/theme/base/borders";
 

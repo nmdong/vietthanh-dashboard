@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -33,7 +33,7 @@ import Icon from "@mui/material/Icon";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 import SuiButton from "components/SuiButton";
@@ -41,7 +41,7 @@ import SuiButton from "components/SuiButton";
 // Custom styles for the Configurator
 import styles from "examples/Configurator/styles";
 
-// Viet Thanh Plastic React context
+// Viet Thanh Plastic context
 import { useSoftUIController } from "context";
 
 function Configurator() {
@@ -192,7 +192,7 @@ function Configurator() {
             data-icon="octicon-star"
             data-size="large"
             data-show-count="true"
-            aria-label="Star Viet Thanh Plastic React on GitHub"
+            aria-label="Star Viet Thanh Plastic on GitHub"
           >
             Star
           </GitHubButton>

@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -19,11 +19,11 @@ import PropTypes from "prop-types";
 // @mui material components
 import Link from "@mui/material/Link";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
-// Viet Thanh Plastic React base styles
+// Viet Thanh Plastic base styles
 import typography from "assets/theme/base/typography";
 
 // Custom styles for the Footer
@@ -69,7 +69,7 @@ function Footer({ company, links }) {
             &nbsp;{name}&nbsp;
           </SuiTypography>
         </Link>
-        Coded By AppSeed.
+        Coded By nmdong.
       </SuiBox>
       <SuiBox component="ul" customClass={classes.footer_list}>
         {renderLinks()}

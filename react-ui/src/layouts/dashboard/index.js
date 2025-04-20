@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -17,11 +17,11 @@ Coded by www.creative-tim.com
 import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
-// Viet Thanh Plastic React example components
+// Viet Thanh Plastic example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
@@ -29,7 +29,7 @@ import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCar
 import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
 import GradientLineChart from "examples/Charts/LineCharts/GradientLineChart";
 
-// Viet Thanh Plastic React base styles
+// Viet Thanh Plastic base styles
 import typography from "assets/theme/base/typography";
 
 // Dashboard layout components
@@ -54,7 +54,7 @@ function Dashboard() {
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "Số thỏa thuận đang hoạt động" }}
+                title={{ text: "Thỏa thuận đang chạy" }}
                 count="88"
                 percentage={{ color: "success", text: "" }}
                 icon={{ color: "info", component: "public" }}

@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -18,7 +18,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import App from "App";
 
-// Viet Thanh Plastic React Context Provider
+// Viet Thanh Plastic Context Provider
 import { SoftUIControllerProvider } from "context";
 
 import { AuthProvider } from "auth-context/auth.context";

@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -28,18 +28,18 @@ import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import Icon from "@mui/material/Icon";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 import SuiInput from "components/SuiInput";
 
-// Viet Thanh Plastic React example components
+// Viet Thanh Plastic example components
 import Breadcrumbs from "examples/Breadcrumbs";
 import NotificationItem from "examples/NotificationItem";
 
 // Custom styles for DashboardNavbar
 import styles from "examples/Navbars/DashboardNavbar/styles";
 
-// Viet Thanh Plastic React context
+// Viet Thanh Plastic context
 import { useSoftUIController } from "context";
 
 // Images
@@ -128,6 +128,29 @@ function DashboardNavbar({ absolute, light, isMini }) {
     </Menu>
   );
 
+  const getBarTitle = () => {
+    if (route.length === 0) {
+      return "Tổng Quan";
+    }
+    const lastSegment = route[route.length - 1];
+    switch (lastSegment) {
+      case "dashboard":
+        return "Tổng Quan";
+      case "tables":
+        return "Quản lý Thỏa Thuận";
+      case "billing":
+        return "Người Dùng";
+      case "rtl":
+        return "RTL";
+      case "virtual-reality":
+        return "Đối Tác";
+      case "notifications":
+        return "Notifications";
+      default:
+        return route[route.length - 1].charAt(0).toUpperCase() + route[route.length - 1].slice(1);
+    }
+  };
+
   return (
     <AppBar
       position={absolute ? "absolute" : navbarType}
@@ -136,7 +159,7 @@ function DashboardNavbar({ absolute, light, isMini }) {
     >
       <Toolbar className={classes.navbar_container}>
         <SuiBox customClass={classes.navbar_row} color="inherit" mb={{ xs: 1, md: 0 }}>
-          <Breadcrumbs icon="home" title={route[route.length - 1]} route={route} light={light} />
+          <Breadcrumbs icon="home" title={getBarTitle()} route={route} light={light} />
         </SuiBox>
         {isMini ? null : (
           <SuiBox customClass={classes.navbar_row}>

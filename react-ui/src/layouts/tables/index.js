@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Viet Thanh Plastic React - v2.0.0
+* Viet Thanh Plastic - v2.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
@@ -16,11 +16,11 @@ Coded by www.creative-tim.com
 // @mui material components
 import Card from "@mui/material/Card";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
-// Viet Thanh Plastic React example components
+// Viet Thanh Plastic example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
@@ -45,7 +45,7 @@ function Tables() {
         <SuiBox mb={3}>
           <Card>
             <SuiBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
-              <SuiTypography variant="h6">Authors table</SuiTypography>
+              <SuiTypography variant="h6">Bảng dữ liệu về Đại Lý / Nhà Phân Phối</SuiTypography>
             </SuiBox>
             <SuiBox customClass={classes.tables_table}>
               <Table columns={columns} rows={rows} />
@@ -54,7 +54,7 @@ function Tables() {
         </SuiBox>
         <Card>
           <SuiBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
-            <SuiTypography variant="h6">Projects table</SuiTypography>
+            <SuiTypography variant="h6">Bảng dữ liệu sản phẩm</SuiTypography>
           </SuiBox>
           <SuiBox customClass={classes.tables_table}>
             <Table columns={prCols} rows={prRows} />

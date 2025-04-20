@@ -2,18 +2,18 @@
 // @mui material components
 import Icon from "@mui/material/Icon";
 
-// Viet Thanh Plastic React components
+// Viet Thanh Plastic components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 import SuiProgress from "components/SuiProgress";
 
 // Images
-import logoSpotify from "assets/images/small-logos/logo-spotify.svg";
-import logoInvesion from "assets/images/small-logos/logo-invision.svg";
-import logoJira from "assets/images/small-logos/logo-jira.svg";
-import logoSlack from "assets/images/small-logos/logo-slack.svg";
-import logoWebDev from "assets/images/small-logos/logo-webdev.svg";
-import logoXD from "assets/images/small-logos/logo-xd.svg";
+import logoSpotify from "assets/images/small-logos/gia-dung.jpeg";
+import logoInvesion from "assets/images/small-logos/hop-thuc-pham.jpeg";
+import logoJira from "assets/images/small-logos/hu-ly-ca.jpeg";
+import logoSlack from "assets/images/small-logos/song.jpeg";
+import logoWebDev from "assets/images/small-logos/ban-ghe.jpeg";
+import logoXD from "assets/images/small-logos/tu.jpeg";
 
 function Completion({ value, color }) {
   return (
@@ -34,104 +34,130 @@ const action = (
   </Icon>
 );
 
+function ProductCell({logo, name}) {
+  return (
+    <SuiBox display="flex" alignItems="center">
+      <SuiBox component="img" src={logo} alt={name} width="32px" mr={1} />
+      <SuiTypography variant="button" fontWeight="medium">
+        {name}
+      </SuiTypography>
+    </SuiBox>
+  );
+}
+
 export default {
   columns: [
-    { name: "project", align: "left" },
-    { name: "budget", align: "left" },
-    { name: "status", align: "left" },
-    { name: "completion", align: "center" },
+    { name: "Nhóm Sản Phẩm", align: "left" },
+    { name: "Tổng Doanh Thu", align: "left" },
+    { name: "Trạng Thái", align: "left" },
+    { name: "Tiến Độ Hoàn Thành", align: "center" },
     { name: "action", align: "center" },
   ],
 
   rows: [
     {
-      project: [logoSpotify, "Spotift"],
-      budget: (
+      "Nhóm Sản Phẩm": <ProductCell logo={logoSpotify} name="Gia Dụng" />,
+      "Tổng Doanh Thu": (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
           $2,500
         </SuiTypography>
       ),
-      status: (
+      "Trạng Thái": (
         <SuiTypography variant="caption" textColor="text" fontWeight="medium">
-          working
+          Đang hoạt động
         </SuiTypography>
       ),
-      completion: <Completion value={60} color="info" />,
+      "Tiến Độ Hoàn Thành": <Completion value={60} color="info" />,
       action,
     },
     {
-      project: [logoInvesion, "Invesion"],
-      budget: (
+      "Nhóm Sản Phẩm": <ProductCell logo={logoInvesion} name="Hộp Thực Phẩm" />,
+      "Tổng Doanh Thu": (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
           $5,000
         </SuiTypography>
       ),
-      status: (
+      "Trạng Thái": (
         <SuiTypography variant="caption" textColor="text" fontWeight="medium">
-          done
+          Hoàn thành
         </SuiTypography>
       ),
-      completion: <Completion value={100} color="success" />,
+      "Tiến Độ Hoàn Thành": <Completion value={100} color="success" />,
       action,
     },
     {
-      project: [logoJira, "Jira"],
-      budget: (
+      "Nhóm Sản Phẩm": <ProductCell logo={logoJira} name="Hũ - Ly - Ca" />,
+      "Tổng Doanh Thu": (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
           $3,400
         </SuiTypography>
       ),
-      status: (
+      "Trạng Thái": (
         <SuiTypography variant="caption" textColor="text" fontWeight="medium">
-          canceled
+          Đã hủy
         </SuiTypography>
       ),
-      completion: <Completion value={30} color="error" />,
+      "Tiến Độ Hoàn Thành": <Completion value={30} color="error" />,
       action,
     },
     {
-      project: [logoSlack, "Slack"],
-      budget: (
+      "Nhóm Sản Phẩm": <ProductCell logo={logoSlack} name="Sóng" />,
+      "Tổng Doanh Thu": (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
           $1,400
         </SuiTypography>
       ),
-      status: (
+      "Trạng Thái": (
         <SuiTypography variant="caption" textColor="text" fontWeight="medium">
-          canceled
+          Đã hủy
         </SuiTypography>
       ),
-      completion: <Completion value={0} color="error" />,
+      "Tiến Độ Hoàn Thành": <Completion value={0} color="error" />,
       action,
     },
     {
-      project: [logoWebDev, "Webdev"],
-      budget: (
+      "Nhóm Sản Phẩm": <ProductCell logo={logoWebDev} name="Bàn Ghế" />,
+      "Tổng Doanh Thu": (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
           $14,000
         </SuiTypography>
       ),
-      status: (
+      "Trạng Thái": (
         <SuiTypography variant="caption" textColor="text" fontWeight="medium">
-          working
+          Đang hoạt động
         </SuiTypography>
       ),
-      completion: <Completion value={80} color="info" />,
+      "Tiến Độ Hoàn Thành": <Completion value={80} color="info" />,
       action,
     },
     {
-      project: [logoXD, "Adobe XD"],
-      budget: (
+      "Nhóm Sản Phẩm": <ProductCell logo={logoXD} name="Tủ" />,
+      "Tổng Doanh Thu": (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
           $2,300
         </SuiTypography>
       ),
-      status: (
+      "Trạng Thái": (
         <SuiTypography variant="caption" textColor="text" fontWeight="medium">
-          done
+          Hoàn thành
         </SuiTypography>
       ),
-      completion: <Completion value={100} color="success" />,
+      "Tiến Độ Hoàn Thành": <Completion value={100} color="success" />,
+      action,
+    },
+    {
+      "Nhóm Sản Phẩm": <ProductCell logo={logoXD} name="Sản Phẩm Khác" />,
+      "Tổng Doanh Thu": (
+        <SuiTypography variant="button" textColor="text" fontWeight="medium">
+          $2,300
+        </SuiTypography>
+      ),
+      "Trạng Thái": (
+        <SuiTypography variant="caption" textColor="text" fontWeight="medium">
+          Hoàn thành
+        </SuiTypography>
+      ),
+      "Tiến Độ Hoàn Thành": <Completion value={100} color="success" />,
       action,
     },
   ],
