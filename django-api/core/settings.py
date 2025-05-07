@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "api",
     "api.user",
     "api.authentication",
+    "api.banhang",
 ]
 
 MIDDLEWARE = [
@@ -85,7 +86,7 @@ WSGI_APPLICATION = "core.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE"  : env("DB_ENGINE"  , default="django.db.backends.sqlite3"),
-        "NAME"    : env("DB_DATABASE", default=os.path.join(BASE_DIR, "db.sqlite3")),
+        "NAME"    : env("DB_DATABASE", default=os.path.join(BASE_DIR, "db_banhang01.sqlite3")),
         "USER"    : env("DB_USER"    , default=None),
         "PASSWORD": env("DB_PASSWORD", default=None),
         "HOST"    : env("DB_HOST"    , default=None),
@@ -152,10 +153,11 @@ REST_FRAMEWORK = {
 #  CORS 
 # ##################################################################### #
 
-CORS_ALLOW_ALL_ORIGINS=True
+# CORS_ALLOW_ALL_ORIGINS=True
+CORS_ALLOW_CREDENTIALS=True
 
 # Load the default ones
-CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "http://127.0.0.1:3000"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "http://127.0.0.1:3000", "http://192.168.1.6:3000"]
 
 # Leaded from Environment
 CORS_ALLOWED_ORIGINS_ENV = env("CORS_ALLOWED_ORIGINS", default=None)

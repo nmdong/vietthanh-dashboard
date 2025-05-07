@@ -48,6 +48,7 @@ import SoftUILogo from "assets/images/logo-ct.webp";
 
 // Viet Thanh Plastic context
 import { useSoftUIController } from "context";
+import ThemNhanVien from "layouts/ThemNhanVien";
 
 function Sidenav({ routes, ...rest }) {
   const [controller, dispatch] = useSoftUIController();
@@ -172,6 +173,20 @@ function Sidenav({ routes, ...rest }) {
       <List>{renderRoutes}</List>
       <SuiBox customClass={classes.sidenav_footer}>
         {/* <SidenavCard /> */}
+        {/* <SuiBox mt={2}>
+          <SuiButton
+            component="a"
+            href="http://localhost:3000/api/v1/user/them-nhan-vien"
+            target="_blank"
+            rel="noreferrer"
+            variant="gradient"
+            buttonColor="info"
+            fullWidth
+          >
+            Thêm Nhân Viên
+          </SuiButton>
+        </SuiBox> */}
+        <ThemNhanVien />
         <SuiBox mt={2}>
           <SuiButton
             component="a"
