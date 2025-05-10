@@ -2,7 +2,7 @@ import axios from "./index";
 
 class NhanVienApi {
     static taoMoiNhanVien = (data) => {
-        return axios.post(`${base}/nhan-vien`, data, { headers: { Authorization: `${data.token}` } });
+        return axios.post(`${base}/nhan-vien`, data);
     };
 }
 

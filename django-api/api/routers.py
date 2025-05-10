@@ -7,6 +7,8 @@ from api.authentication.viewsets import (
 from rest_framework import routers
 from api.user.viewsets import UserViewSet
 from api.banhang.viewsets import AANhanVienViewSet, AadsvitriViewSet
+from rest_framework_simplejwt.views import TokenRefreshView
+from django.urls import path
 
 router = routers.SimpleRouter(trailing_slash=False)
 
@@ -26,4 +28,5 @@ router.register(r'vitri', AadsvitriViewSet)
 
 urlpatterns = [
     *router.urls,
+    path("token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
 ]
